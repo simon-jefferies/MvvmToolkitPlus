@@ -6,10 +6,10 @@ A C# MVVM toolkit library that extends CommunityToolkit.Mvvm with additional str
 
 ```bash
 # Package manager
-Install-Package OliveStudio.Toolkit
+Install-Package MvvmToolkit
 
 # .NET CLI
-dotnet add package OliveStudio.Toolkit
+dotnet add package MvvmToolkit
 ```
 
 ## Dependencies
