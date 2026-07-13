@@ -1,6 +1,6 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 
-namespace OliveStudio.Toolkit;
+namespace MvvmToolkit;
 
 /// <summary>
 /// Represents an observable object that has a model of type <typeparamref name="TModel"/>.

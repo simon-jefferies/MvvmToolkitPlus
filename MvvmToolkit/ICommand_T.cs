@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace OliveStudio.Toolkit;
+﻿namespace MvvmToolkit;
 
 /// <summary>
 /// Defines a command with a single generic parameter.

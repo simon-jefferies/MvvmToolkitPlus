@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace OliveStudio.Toolkit;
+﻿namespace MvvmToolkit;
 
 /// <summary>
 /// Defines an asynchronous command with a parameter of type <typeparamref name="T"/>.

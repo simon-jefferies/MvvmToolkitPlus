@@ -6,6 +6,7 @@
     <Nullable>enable</Nullable>
     <IsPackable>false</IsPackable>
     <IsTestProject>true</IsTestProject>
+    <RootNamespace>MvvmToolkit.Tests</RootNamespace>
   </PropertyGroup>
 
 	<ItemGroup>
@@ -18,7 +19,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\OliveStudio.Toolkit\OliveStudio.Toolkit.csproj" />
+	  <ProjectReference Include="..\MvvmToolkit\MvvmToolkit.csproj" />
 	</ItemGroup>
 
   <ItemGroup>
