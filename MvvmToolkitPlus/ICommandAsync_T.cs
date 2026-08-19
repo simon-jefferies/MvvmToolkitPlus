@@ -1,10 +1,10 @@
-﻿namespace MvvmToolkit;
+﻿namespace MvvmToolkitPlus;
 
 /// <summary>
-/// Defines an asynchronous command with a parameter of type <typeparamref name="T"/>.
+/// Defines an asynchronous command with a parameter of type <typeparamref name="TParameter"/>.
 /// </summary>
 /// <typeparam name="T">The type of the parameter passed to the command.</typeparam>
-public interface ICommandAsync<in T>
+public interface ICommandAsync<in TParameter>
 {
     /// <summary>
     /// Occurs when changes occur that affect whether or not the command should execute.
@@ -16,11 +16,11 @@ public interface ICommandAsync<in T>
     /// </summary>
     /// <param name="parameter">The parameter to be passed to the command.</param>
     /// <returns><c>true</c> if the command can execute; otherwise, <c>false</c>.</returns>
-    bool CanExecute(T parameter);
+    bool CanExecute(TParameter parameter);
 
     /// <summary>
     /// Executes the command.
     /// </summary>
     /// <param name="parameter">The parameter to be passed to the command.</param>
-    void Execute(T parameter);
+    void Execute(TParameter parameter);
 }

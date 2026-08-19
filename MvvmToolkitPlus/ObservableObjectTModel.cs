@@ -1,6 +1,6 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 
-namespace MvvmToolkit;
+namespace MvvmToolkitPlus;
 
 /// <summary>
 /// Represents an observable object that has a model of type <typeparamref name="TModel"/>.
@@ -11,7 +11,7 @@ public abstract class ObservableObject<TModel> : ObservableObject
     /// <summary>
     /// Gets the model of this observable object.
     /// </summary>
-    public TModel Model { get; }
+    public required TModel Model { get; init; }
 
     /// <summary>
     /// Initializes a new instance of the <see cref="ObservableObject{TModel}"/> class with the specified model.

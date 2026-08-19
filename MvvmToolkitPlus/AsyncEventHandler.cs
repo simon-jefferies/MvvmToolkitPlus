@@ -1,4 +1,4 @@
-namespace MvvmToolkit;
+namespace MvvmToolkitPlus;
 
 public delegate Task AsyncEventHandler(object sender, EventArgs e);
 

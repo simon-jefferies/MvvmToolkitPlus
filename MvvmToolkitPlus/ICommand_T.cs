@@ -1,10 +1,10 @@
-﻿namespace MvvmToolkit;
+﻿namespace MvvmToolkitPlus;
 
 /// <summary>
 /// Defines a command with a single generic parameter.
 /// </summary>
-/// <typeparam name="T">The type of parameter used by the command.</typeparam>
-public interface ICommand<in T>
+/// <typeparam name="TParameter">The type of parameter used by the command.</typeparam>
+public interface ICommand<in TParameter>
 {
     /// <summary>
     /// Occurs when changes occur that affect whether the command should execute.
@@ -16,11 +16,11 @@ public interface ICommand<in T>
     /// </summary>
     /// <param name="parameter">Data used by the command.</param>
     /// <returns>true if this command can be executed; otherwise, false.</returns>
-    bool CanExecute(T parameter);
+    bool CanExecute(TParameter parameter);
 
     /// <summary>
     /// Executes the command with the given parameter.
     /// </summary>
     /// <param name="parameter">Data used by the command.</param>
-    void Execute(T parameter);
+    void Execute(TParameter parameter);
 }
