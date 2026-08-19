@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="MvvmToolkitPlus.Tests/MvvmToolkitPlus.Tests.csproj" />
+  <Project Path="MvvmToolkitPlus/MvvmToolkitPlus.csproj" />
+</Solution>

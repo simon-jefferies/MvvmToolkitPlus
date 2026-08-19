@@ -19,7 +19,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\MvvmToolkit\MvvmToolkit.csproj" />
+	  <ProjectReference Include="..\MvvmToolkitPlus\MvvmToolkitPlus.csproj" />
 	</ItemGroup>
 
   <ItemGroup>
